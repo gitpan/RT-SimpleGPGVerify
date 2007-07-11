@@ -51,18 +51,14 @@ use Mail::GnuPG;
 
 =head2 GetCurrentUser
 
-To use the GPG signature verification, you need to do the following:
+To use the gnupg-secured mail gateway, you need to do the following:
 
-Set up a gnupg key directory with a pubring containing only the keys
+Set up a gnupgp key directory with a pubring containing only the keys
 you care about and specify the following in your SiteConfig.pm
 
 Set($RT::GPGKeyDir, "/path/to/keyring-directory");
-@RT::MailPlugins = qw(Auth::MailFrom Filter::SimpleGPGVerify);
+@RT::MailPlugins = qw(Auth::MailFrom Auth::GnuPG Filter::TakeAction);
 
-You'll also want to have a configuration file (gpg.conf) that looks like this in your GPG keyring directory:
-
- keyserver pgp.mit.edu
- keyserver-options honor-http-proxy,auto-key-retrieve
 
 
 =cut

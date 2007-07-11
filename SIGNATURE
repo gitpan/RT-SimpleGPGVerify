@@ -14,8 +14,9 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 0c79fc5455d8fafbc65c30f5776d7fffad81fb44 MANIFEST
-SHA1 ab3eaeb17a507f722cce78d093ac870f3ac4b2f4 META.yml
+SHA1 b2c33baad2627a28f0280b01eaf95e4ae2c2cd3c Changes
+SHA1 29c3b4710fe13888b7a01d91286e8d15aeda5ba8 MANIFEST
+SHA1 4e42cc633a2cfb765096d98c68852e78cb39a400 META.yml
 SHA1 e1c3f35dc274dfbde21e0b96d1a7a9a15c717269 Makefile.PL
 SHA1 80ba57b792def03b4a7d46d77f2d5aea4a3622c5 README
 SHA1 0c9690e6913d255b9cabe4e553ba3f740e6e5247 html/Callbacks/SimpleGPGVerify/Ticket/Elements/ShowMessageHeaders/Headers
@@ -28,12 +29,12 @@ SHA1 5d6189b2cad15cf9932a28faafd55130c8247e83 inc/Module/Install/Metadata.pm
 SHA1 f7ca5510f60edc6a3ca479b8cbd23d89e9d15974 inc/Module/Install/RTx.pm
 SHA1 02af973fae2ac3531fa6b704574b2b8cb2a08148 inc/Module/Install/Win32.pm
 SHA1 3a2eab96e91cca8d99938cda7791759ae9d97b3a inc/Module/Install/WriteAll.pm
-SHA1 0e59a44f08c3209e30ea221bd1d84112ced5f2d6 lib/RT/Interface/Email/Filter/SimpleGPGVerify.pm
-SHA1 697e5f6b935ad75bfa95f42fe9fad0add482bd6c lib/RT/SimpleGPGVerify.pm
+SHA1 65523bcaf69cf2152bca722da263c1204577c0a3 lib/RT/Interface/Email/Filter/SimpleGPGVerify.pm
+SHA1 c368e25c7d60c1d602d7b481f186515a0b8af480 lib/RT/SimpleGPGVerify.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.3 (Darwin)
 
-iD8DBQFGk8LLEi9d9xCOQEYRAs//AKCDL/f8G996Jts0TVAkQ2ivMLpOqACgo0dg
-gpbvxw4fKWVKi17z55siM8M=
-=RcGT
+iD8DBQFGlSb+Ei9d9xCOQEYRAt86AKCDp1bHYfr9OXesYo7FgdBEQrblwgCgoAZb
+WDSeQKIHRqkaiy+zK7ej0AY=
+=V/9U
 -----END PGP SIGNATURE-----
